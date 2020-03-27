@@ -12,7 +12,7 @@ RUN apt-get update && apt-get upgrade -y && \
 RUN ln -sf /opt/bitnami/zookeeper-exporter/bin/zookeeper-exporter /usr/local/bin/zookeeper-exporter
 
 ENV BITNAMI_APP_NAME="zookeeper-exporter" \
-    BITNAMI_IMAGE_VERSION="0.1.3-debian-10-r58" \
+    BITNAMI_IMAGE_VERSION="0.1.3-debian-10-r59" \
     PATH="/opt/bitnami/zookeeper-exporter/bin:$PATH"
 
 EXPOSE 8080
