@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+
+This image has been deprecated, and will no longer be maintained and updated. Please consider using [bitnami/zookeeper](https://github.com/bitnami/bitnami-docker-zookeeper) instead.
+
 # What is ZooKeeper Exporter?
 
 > ZooKeeper Exporter gathers statistics from a ZooKeeper server for Prometheus consumption.
